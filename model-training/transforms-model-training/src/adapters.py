@@ -1,0 +1,5 @@
+from palantir_models.manifest.model_adapter_discovery import ModelAdapterDiscovery
+from main import model_adapters
+
+adapter_discovery = ModelAdapterDiscovery()
+adapter_discovery.discover_in_modules(model_adapters)
